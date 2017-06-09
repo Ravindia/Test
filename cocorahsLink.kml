@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+   <Folder>
+	<name>CoCoRaHS </name>
+	<visibility>0</visibility>
+       <NetworkLink>
+	    <name>Daily Precipitation(inches)</name>
+    	    <visibility>0</visibility>
+	    <Url>
+		<href>http://www.srh.noaa.gov/gis/kml/cocorahs/cocorahsPrecipLink.kml</href>
+	    </Url>
+       </NetworkLink>
+       <NetworkLink>
+	    <name>Daily Snow(inches)</name>
+    	    <visibility>0</visibility>
+	    <Url>
+		<href>http://www.srh.noaa.gov/gis/kml/cocorahs/cocorahsSnowLink.kml</href>
+	    </Url>
+       </NetworkLink>
+       <NetworkLink>
+	    <name>Snow on Ground(inches)</name>
+    	    <visibility>0</visibility>
+	    <Url>
+		<href>http://www.srh.noaa.gov/gis/kml/cocorahs/cocorahsTotSnowLink.kml</href>
+	    </Url>
+       </NetworkLink>
+       <ScreenOverlay>
+	    <name>NWS/CoCoRaHS logo</name>
+    	    <visibility>1</visibility>
+	    <description>Data: CoCoRaHS 
+                         KML/KMZ files: NWS El Paso.</description>
+	    <Icon>
+		<href>http://www.srh.noaa.gov/gis/kml/icons/nwscocorahs.png</href>
+	    </Icon>
+            <overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+            <screenXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+            <size x="167" y="67" xunits="pixels" yunits="pixels"/>
+       </ScreenOverlay>
+    </Folder>       
+</kml>

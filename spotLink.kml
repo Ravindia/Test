@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Folder>
+   <name>Spot Burn Sites</name>
+   <Snippet><![CDATA[Wildfires in red.]]></Snippet>
+   <NetworkLink>
+	<name>SITES</name>
+	<visibility>0</visibility>
+	<Url>
+		<href>http://www.srh.noaa.gov/gis/kml/SpotForecast/spot2.kmz</href>
+	</Url>
+   </NetworkLink>
+   <ScreenOverlay>
+      <name>NOAA/NWS Logo</name>
+      <visibility>1</visibility>
+      <description>KML/KMZ files: NWS El Paso.</description>
+      <Icon>
+      	<href>http://www.srh.noaa.gov/gis/kml/icons/noaanws.gif</href>
+      </Icon>
+      <overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+      <screenXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+      <size x="-1" y="-1" xunits="fraction" yunits="fraction"/>
+   </ScreenOverlay>
+</Folder>
+</kml>

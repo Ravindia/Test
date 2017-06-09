@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Folder>
+   <name>Spot Burn Sites</name>
+   <Snippet><![CDATA[Wildfires in red.]]></Snippet>
+  <ScreenOverlay>
+	<name>NOAA/NWS Logo</name>
+	<visibility>1</visibility>
+	<description>KML/KMZ files: NWS El Paso.</description>
+	<Icon>
+	  <href>http://www.srh.noaa.gov/gis/kml/icons/noaanws.gif</href>
+	</Icon>
+	<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+	<screenXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+	<size x="-1" y="-1" xunits="fraction" yunits="fraction"/>
+  </ScreenOverlay>
+  <GroundOverlay>
+	<name>Large-scale overlay on terrain</name>
+	<description>
+	  Overlay shows Mount Etna erupting
+	  on July 13th, 2001.
+	</description>
+	<Icon>
+	  <href>http://www.srh.noaa.gov/gis/kml/icons/noaanws.gif</href>
+	</Icon>
+	<LatLonBox>
+	  <north>37.91904192681665</north>
+	  <south>37.46543388598137</south>
+	  <east>15.35832653742206</east>
+	  <west>14.60128369746704</west>
+	  <rotation>-0.1556640799496235</rotation>
+	</LatLonBox>
+  </GroundOverlay>
+</Folder>
+</kml>

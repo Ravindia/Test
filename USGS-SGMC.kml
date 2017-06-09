@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<NetworkLink>
+	<name>US State geologic maps</name>
+	<atom:author xmlns="http://www.w3c.org/2005/Atom">U.S. Geological Survey</atom:author>
+	<atom:link xmlns="http://www.w3c.org/2005/Atom" rel="via" href="http://mrdata.usgs.gov/geology/state/" title="Web site providing alternative representations of these data for display and download">http://mrdata.usgs.gov/geology/state/</atom:link>
+	<description>Digital geologic maps of the US states with consistent lithology, age, GIS database structure, and format, compiled by state geological surveys and the U.S. Geological Survey.  Details and additional download options at <a href="http://mrdata.usgs.gov/geology/state/">http://mrdata.usgs.gov/geology/state/</a></description>
+	<LookAt>
+		<longitude>-95.26548327815362</longitude>
+		<latitude>38.95939043010465</latitude>
+		<altitude>0</altitude>
+		<heading>-5.283624734454021e-08</heading>
+		<tilt>0</tilt>
+		<range>3787034.632638533</range>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+	</LookAt>
+	<Style>
+		<ListStyle>
+			<listItemType>checkHideChildren</listItemType>
+			<bgColor>00ffffff</bgColor>
+			<maxSnippetLines>2</maxSnippetLines>
+		</ListStyle>
+	</Style>
+	<Link>
+		<href>http://mrdata.usgs.gov/mapcache/kml/sgmc@WGS84.kml</href>
+	</Link>
+</NetworkLink>
+</kml>
